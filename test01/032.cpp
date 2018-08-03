@@ -46,6 +46,7 @@ using namespace std;
 //}
 
 
+
 //析构函数
 //class Date
 //{i
@@ -60,6 +61,11 @@ using namespace std;
 
 
 //赋值操作符的重载是对一个已经存在的对象进行拷贝复制
+//1.返回类型为该类的引用
+//2.传入参数声明为常量引用
+//3.是否释放自身已经有的内存
+//4.判断this!=&d
+
 //Date& operator = (const Date& d)
 //{
 //    if(this!=&d)
